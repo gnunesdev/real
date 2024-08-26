@@ -1,6 +1,8 @@
+import { TransactionForm } from "./components/transaction-form";
+
 export default function Home() {
   return (
-    <>
+    <div>
       <header></header>
       <main>
         <div className="w-full mt-8">
@@ -8,7 +10,10 @@ export default function Home() {
             O Real
           </h1>
         </div>
+        <div className="w-3/5 mx-auto">
+          <TransactionForm />
+        </div>
       </main>
-    </>
+    </div>
   );
 }
