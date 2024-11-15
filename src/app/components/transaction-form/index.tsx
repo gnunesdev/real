@@ -141,7 +141,7 @@ export const TransactionForm = () => {
             </FormItem>
           )}
         />
-        <Button type="submit">
+        <Button type="submit" className="bg-green-950 hover:bg-green-900">
           {createTransactionMutation.isPending ? "Carregando..." : "Registrar"}
         </Button>
       </form>
